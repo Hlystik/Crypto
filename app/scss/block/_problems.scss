@@ -1,0 +1,92 @@
+.problems {
+
+  &__top {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  &__subtitle {
+    margin-top: 20px;
+     text-align: center;
+  }
+
+  &__wrapper {
+    padding-left: 80px;
+    padding-right: 44px;
+    display: flex;
+    align-items: center;
+    height: 680px;
+    margin-top: 110px;
+  }
+
+  &__list {
+    width: 485px;
+    position: relative;
+    &:last-child {
+      align-self: flex-end;
+    }
+    &:first-child {
+      align-self: flex-start;
+    }
+    &::before {
+      content: '🤔';
+      position: absolute;
+      font-size: 56px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+    }
+  }
+  &__list--unamused{
+    &::before {
+      content: '😒';
+    }
+  }
+  &__list--exploding {
+    margin-bottom: 105px;
+    &::before {
+      content: '🤯';
+    }
+  }
+
+  ul {
+    padding-left: 76px;
+  }
+
+  &__list-item +
+  &__list-item {
+    margin-top: 20px;
+  }
+}
+.container-fluid {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    background: url(../images/vector_line.svg);
+    background-repeat: no-repeat;
+    top: 250px;
+    width: 1488px;
+    height: 447px;
+    @media (max-width: 1440px) {
+      background: url(../images/vector_line_2.svg);
+      background-repeat: no-repeat;
+      width: 1324px;
+      height: 447px;
+      top: 105px;
+    }
+    @media (max-width: 1280px) {
+      background: url(../images/vector_line_3.svg);
+      background-repeat: no-repeat;
+      top: 112px;
+      width: 776px;
+      height: 236px;
+    }
+    @media (max-width: 768px) {
+    background: none;
+    width: 0;
+    height: 0;
+    top: 0;
+    }
+  }
+}

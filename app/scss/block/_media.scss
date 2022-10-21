@@ -1,0 +1,361 @@
+@media (max-width: 1440px) {
+  .problems {
+    &__wrapper {
+      margin-top: 140px;
+      height: 470px;
+      padding-right: 70px;
+    }
+    &__list {
+      &--exploding {
+        margin-bottom: 35px;
+      }
+    }
+    &__list-item {
+      font-size: 20px;
+      line-height: 23px;
+    }
+    &__list-item+
+    &__list-item {
+      margin-top: 10px;
+    }
+  }
+  .program {
+    &__box-img {
+      max-width: 345.74px;
+      height: 501.27px;
+    }
+  }
+  .info {
+    &__img-users {
+      left: 170px;
+    }
+    &__img-star {
+      left: 48%;
+    }
+    &__img-notes {
+      right: 35px;
+    }
+    &__descr {
+      max-width: 296px;
+    }
+  }
+  .description {
+    &__item {
+      width: 340px;
+      height: 220px;
+      padding: 0 5px;
+    }
+    &__item-computer::after {
+      top: -109px;
+    }
+    &__item-chat::after {
+      top: -128px;
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .header {
+    padding-top: 44px;
+    &__info {
+      font-size: 16px;
+    }
+    &__logo {
+      width: 106px;
+    }
+    &__logo-text {
+      font-size: 16px;
+    }
+    &__logo-img {
+      width: 36px;
+    }
+  }
+  .subheader {
+    &__subtitle {
+      margin-top: 30px;
+    }
+  }
+  .problems {
+    &__wrapper {
+      margin-top: 71px;
+      padding-left: 60px;
+      padding-right: 60px;
+      height: 320px;
+    }
+    ul {
+      padding-left: 43px;
+    }
+    &__list {
+      
+      &::before {
+        font-size: 36px;
+      }
+    }
+    &__list-item {
+      font-size: 16px;
+      line-height: 19px;
+    }
+    &__list-item +
+    &__list-item {
+      margin-top: 4px;
+    }
+  }
+  .program {
+    &__subtitle {
+      margin-top: 20px;
+    }
+    &__wrapper {
+      margin-top: 40px;
+    }
+    &__box {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &__info {
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+    &__info-title {
+      font-size: 32px;
+      line-height: 38px;
+      margin-bottom: 20px;
+    }
+    &__list-item {
+      margin-left: 25px;
+    }
+    &__list-item +
+    &__list-item {
+      margin-top: 10px;
+    }
+    &__box-img {
+      order: -1;
+      width: 145px;
+      height: 211px;
+    }
+  }
+  .info {
+    margin-top: 150px;
+    &__img-users {
+      width: 142px;
+      height: 142px;
+      left: 90px;
+      bottom: -11px;
+    }
+    &__img-star {
+      width: 142px;
+      height: 142px;
+      left: 44%;
+    }
+    &__img-notes {
+      width: 142px;
+      height: 142px;
+      right: 13px;
+    }
+    &__wrapper {
+      padding: 40px 20px 40px 20px;
+    }
+    &__descr {
+      max-width: 190px;
+      margin-right: 20px;
+    }
+  }
+  .description {
+    &__subtitle {
+      margin-top: 20px;
+    }
+    &__items {
+      margin-top: 100px;
+    }
+    &__item {
+      font-size: 16px;
+      line-height: 19px;
+      width: 206px;
+      height: 127px;
+      padding: 0 17px;
+      &::after {
+        width: 82px;
+        height: 82px;
+        top: -60px;
+      }
+    }
+  }
+  .questions {
+    &__wrapper {
+      margin-top: 150px;
+    }
+    &__img {
+      width: 375px;
+      height: 448px;
+    }
+  }
+  .footer {
+    &__copyright {
+      margin-top: 472px;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding-top: 15px;
+    &__wrapper {
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__info {
+      margin-right: 0;
+      font-size: 12px;
+      line-height: 94%;
+      margin-top: 10px;
+      text-align: center;
+      padding: 0 50px;
+    }
+    &__logo {
+      order: -1;
+      width: 74px;
+    }
+    &__logo-text {
+      font-size: 12px;
+    }
+    &__logo-img {
+      width: 22px;
+      height: 26px;
+    }
+  }
+  .subheader {
+    &__subtitle {
+      font-size: 12px;
+      line-height: 14px;
+      margin-top: 20px;
+    }
+  }
+  .problems {
+    &__subtitle {
+      font-size: 12px;
+      line-height: 14px;
+      text-align: start;
+    }
+    &__wrapper {
+      display: block;
+      margin-top: 96px;
+      padding: 0;
+    }
+    ul {
+      padding-left: 0;
+    }
+    &__list {
+      text-align: center;
+      margin: 0 auto;
+      width: auto;
+      &::before {
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+    &__list {
+      margin-top: 86px;
+    }
+  }
+  .program {
+    &__subtitle {
+      font-size: 12px;
+      line-height: 14px;
+      text-align: start;
+    }
+    &__info {
+      text-align: center;
+    }
+    &__info-title {
+      font-size: 20px;
+      line-height: 23px;
+    }
+    &__list-item {
+      margin-left: 0;
+      list-style-position: inside;
+    }
+  }
+  .info {
+    margin-top: 100px;
+    padding: 0 46px;
+    &__icon {
+      
+      margin: 0 auto;
+    }
+    &__img-users {
+      width: 86px;
+      height: 86px;
+      top: 10px;
+      bottom: 0;
+      left: auto;
+      right: -40px;
+    }
+    &__img-star {
+      width: 80px;
+      height: 80px;
+      left: auto;
+      right: -40px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &__img-notes {
+      width: 78px;
+      height: 78px;
+      right: -40px;
+    }
+    &__wrapper {
+      display: block;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    &__descr {
+      margin-right: 0;
+      max-width: 100%;
+    }
+    &__descr +
+    &__descr {
+      margin-top: 40px;
+    }
+  }
+  .description {
+    &__subtitle {
+      text-align: start;
+    }
+    &__items {
+      display: block;
+      margin-top: 90px;
+    }
+    &__item {
+      margin: 0 auto;
+    }
+    &__item + 
+    &__item {
+      margin-top: 100px;
+    }
+  }
+  .questions {
+    &__wrapper {
+      margin-top: 100px;
+    }
+    &__subtitle {
+      margin-top: 10px;
+    }
+    &__img {
+      position: initial;
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  }
+  .footer {
+    &__copyright {
+      margin-top: 87px;
+    }
+    &__copyright p {
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+}

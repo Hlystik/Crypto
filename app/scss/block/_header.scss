@@ -1,0 +1,42 @@
+.header {
+  padding-top: 51px;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__info {
+    @extend %russo-font;
+    margin-right: auto;
+    font-size: 27px;
+    line-height: 84%;
+    max-width: 516px;
+    letter-spacing: 0.02em;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__logo-text {
+    @extend %russo-font;
+    width: 118px;
+    font-size: 27px;
+    line-height: 84%;
+  }
+
+  &__logo-img {
+    width: 54px;
+  }
+}
+.subheader {
+  max-width: 890px;
+  &__subtitle {
+    margin-top: 40px;
+  }
+}
+
+
+

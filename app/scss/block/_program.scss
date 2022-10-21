@@ -1,0 +1,48 @@
+.program {
+  max-width: 1332px;
+  margin: 0 auto;
+  &__subtitle {
+    margin: 0 auto;
+    max-width: 1020px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  &__wrapper {
+    margin-top: 100px;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    &:nth-child(2n) {
+      img {
+        order: -1;
+      }
+    }
+  }
+  &__box+
+  &__box {
+    margin-top: 40px;
+  }
+
+  &__info {
+    margin-bottom: 100px;
+    max-width: 750px;
+  }
+  &__info-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 40px;
+  }
+  &__list-item {
+    list-style: disc;
+    margin-left: 50px;
+  }
+  &__list-item+
+  &__list-item {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,56 @@
+.description {
+
+  &__subtitle {
+    text-align: center;
+    max-width: 1084px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 205px;
+  }
+
+  &__item {
+    width: 410px;
+    height: 260px;
+    background: radial-gradient(104.17% 107.88% at 50% 0%, #A20707 0%, rgba(192, 40, 40, 0.6) 9.38%, rgba(223, 85, 85, 0.41) 16.15%, rgba(241, 241, 241, 0) 100%);
+    border: 1px solid rgba(247, 252, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 148px;
+      height: 148px;
+      top: -115px;
+    }
+  }
+
+  &__item-lightning::after {
+    background: url(../images/lightning.png) no-repeat;
+    background-size: contain;
+  }
+
+  &__item-computer::after {
+    background: url(../images/computer.png) no-repeat;
+    background-size: contain;
+    top: -95px;
+  }
+
+  &__item-chat::after {
+    background: url(../images/chat.png) no-repeat;
+    background-size: contain;
+    width: 178px;
+    height: 178px;
+  }
+}

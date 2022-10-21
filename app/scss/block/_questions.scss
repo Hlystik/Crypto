@@ -1,0 +1,19 @@
+.questions {
+
+  &__wrapper {
+    position: relative;
+    margin-top: 200px;
+  }
+
+  &__subtitle {
+    margin-top: 20px;
+  }
+
+  &__img {
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+}

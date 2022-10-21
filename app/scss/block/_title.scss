@@ -1,0 +1,71 @@
+.title {
+    @extend %russo-font;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.04em;
+    @media (max-width: 1280px) {
+      font-size: 40px;
+      line-height: 48px;
+    }
+  &--subheader {
+    margin-top: 165px;
+    @media (max-width: 1280px) {
+      margin-top: 74px;
+    }
+  }
+  &--problems {
+    margin-top: 200px;
+    text-align: center;
+    @media (max-width: 1280px) {
+      margin-top: 150px;
+      font-size: 36px;
+      line-height: 43px;
+    }
+  }
+  &--program {
+    text-align: center;
+    margin-top: 200px;
+    @media (max-width: 1280px) {
+      margin-top: 173px;
+      font-size: 36px;
+      line-height: 43px;
+    }
+  }
+  &--description {
+    text-align: center;
+    margin-top: 200px;
+    @media (max-width: 1280px) {
+      margin-top: 150px;
+      font-size: 36px;
+      line-height: 43px;
+    }
+  }
+  &--questions {
+    font-size: 90px;
+    line-height: 108px;
+    letter-spacing: 0.04em;
+    @media (max-width: 1280px) {
+      font-size: 36px;
+      line-height: 43px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: start;
+    &--subheader {
+      margin-top: 68px;
+    }
+    &--problems {
+      margin-top: 100px;
+    }
+    &--program {
+      margin-top: 163px;
+    }
+    &--description {
+      margin-top: 100px;
+    }
+  }
+}
