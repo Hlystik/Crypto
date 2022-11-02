@@ -45,4 +45,16 @@
   &__list-item {
     margin-top: 20px;
   }
+  &__box-img {
+    opacity: .8;
+  }
+}
+
+.lion {
+  background: linear-gradient(94.39deg, rgba(243, 243, 243, 0.2) 0%, rgba(243, 243, 243, 0.154583) 67.45%, rgba(243, 243, 243, 0.0861612) 87.04%, rgba(243, 243, 243, 0) 104.45%);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  transform: matrix(0.97, -0.26, 0.26, 0.97, 0, 0);
+  width: 264px;
+  height: 350px;
 }
